@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Running test in : chrome]]>
+    </line>
+    <line>
+      <![CDATA[Running test in : firefox]]>
+    </line>
+    <line>
+      <![CDATA[Running test in : IE]]>
+    </line>
+  </reporter-output>
+  <suite name="PracticeAutomationSuite" duration-ms="107702" started-at="2020-03-17T15:56:21Z" finished-at="2020-03-17T15:58:08Z">
+    <groups>
+    </groups>
+    <test name="LoginTest Browser Chrome" duration-ms="25661" started-at="2020-03-17T15:56:21Z" finished-at="2020-03-17T15:56:46Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:testcases.LoginTest@1e397ed7]" name="Setup" is-config="true" duration-ms="18973" started-at="2020-03-17T15:56:21Z" finished-at="2020-03-17T15:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Running test in : chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Login_Test()[pri:0, instance:testcases.LoginTest@1e397ed7]" name="Login_Test" duration-ms="5825" started-at="2020-03-17T15:56:40Z" finished-at="2020-03-17T15:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.LoginTest@1e397ed7]" name="TearDown" is-config="true" duration-ms="824" started-at="2020-03-17T15:56:45Z" finished-at="2020-03-17T15:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- LoginTest Browser Chrome -->
+    <test name="SignInTest Browser Firefox" duration-ms="39513" started-at="2020-03-17T15:56:46Z" finished-at="2020-03-17T15:57:26Z">
+      <class name="testcases.SignInTest">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:testcases.SignInTest@4e1d422d]" name="Setup" is-config="true" duration-ms="25330" started-at="2020-03-17T15:56:47Z" finished-at="2020-03-17T15:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Running test in : firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="SignIn_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SignInTest@4e1d422d]" name="SignIn_Test" duration-ms="8248" started-at="2020-03-17T15:57:12Z" data-provider="GetTestData" finished-at="2020-03-17T15:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Roy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GFK]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Qwerty, 123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[zxcvb]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Colorado]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[GFK]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[12345123123]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[12345123123]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[GK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn_Test -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.SignInTest@4e1d422d]" name="TearDown" is-config="true" duration-ms="5403" started-at="2020-03-17T15:57:20Z" finished-at="2020-03-17T15:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.SignInTest -->
+    </test> <!-- SignInTest Browser Firefox -->
+    <test name="CheckOutTest Browser IE" duration-ms="42442" started-at="2020-03-17T15:57:26Z" finished-at="2020-03-17T15:58:08Z">
+      <class name="testcases.CheckOutTest">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:testcases.CheckOutTest@2ac273d3]" name="Setup" is-config="true" duration-ms="10234" started-at="2020-03-17T15:57:26Z" finished-at="2020-03-17T15:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Running test in : IE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Check_Out_Test()[pri:0, instance:testcases.CheckOutTest@2ac273d3]" name="Check_Out_Test" duration-ms="31539" started-at="2020-03-17T15:57:36Z" finished-at="2020-03-17T15:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Out_Test -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.CheckOutTest@2ac273d3]" name="TearDown" is-config="true" duration-ms="665" started-at="2020-03-17T15:58:08Z" finished-at="2020-03-17T15:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.CheckOutTest -->
+    </test> <!-- CheckOutTest Browser IE -->
+  </suite> <!-- PracticeAutomationSuite -->
+</testng-results>

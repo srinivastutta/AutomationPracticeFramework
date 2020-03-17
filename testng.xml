@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PracticeAutomationSuite" parallel="tests" thread-count="1" preserve-order="true" >
+
+
+	<listeners>
+		<listener class-name="listener.ExtentReportListener" />
+	</listeners>
+
+	<test name="LoginTest Browser Chrome">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="SignInTest Browser Firefox">
+		<parameter name="myBrowser" value="firefox" />
+		<classes>
+			<class name="testcases.SignInTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CheckOutTest Browser IE">
+		<parameter name="myBrowser" value="IE" />
+		<classes>
+			<class name="testcases.CheckOutTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

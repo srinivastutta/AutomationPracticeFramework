@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [PracticeAutomationSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="listener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="1" name="LoginTest Browser Chrome(failed)" parallel="tests">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest Browser Chrome(failed) -->
+</suite> <!-- Failed suite [PracticeAutomationSuite] -->
